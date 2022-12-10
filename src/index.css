@@ -1,0 +1,42 @@
+.titulo-react {
+  font-size: 4em;
+  text-align: center;
+  padding: 1em;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imagen {
+  border-radius: 5%;
+  width: 40em;
+  align-self: center;
+}
+.imagen:hover {
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+.CardImagen{
+  display: flex;
+  margin: 2em;
+  justify-content: center;
+  text-align:center;
+  align-self: center;
+
+}
+.Card-imagenes{
+  width: 60%;
+  font-size:large;
+}
+.piePagina{
+  width: 100%;
+  color:white;
+  padding: 2em;
+  background-color: darkgreen;
+  text-align: center;
+  font-size: smaller;
+}
